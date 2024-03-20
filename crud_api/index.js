@@ -30,5 +30,5 @@ app.use(express.urlencoded({extended: false}));
 app.use(router);
 
 app.listen(PORT, async() => {
-    console.log(`Server is running on PORT ${PORT}`);
+    console.log(`App is running on PORT ${PORT}`);
 })
